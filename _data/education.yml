@@ -1,11 +1,3 @@
--   qualification: BSc(Hons) Computer Programming
-    school: Oxford
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
--   qualification: A-Level Computing
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
--   qualification: A-Level Maths
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   qualification: Técnico de Informatica
+    school: ETec Polivalente de Americana
+    description: Foco em fundamentos de programação, como orientação a objetos e algoritmos, bastante trabalho com projetos em grupo e boas praticas de desenvolvimento. 
