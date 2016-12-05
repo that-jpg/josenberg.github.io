@@ -1,23 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     {% include head.html %}
-    <body>
-      <header>
-          <div class="container">
-              <div class="intro">
-                  <p class="intro__main">Estamos em construção.</p>
-              </div>
-            </div>
-
-        </header>
-        <div class="container">
-          <dl>
-              <dt>
-                  <p class="title">Entre em contato pelo email.</p>
-                  <p class="company">mbx.philipe@gmail.com</p>
-              </dt>
-
-          </dl>
-      </div>
+    <body class="is-offset {% unless site.typekit_kit_id %}wf-inactive{% endunless %}">
+        {% include header.html %}
+        <section role="main">
+            {{ content }}
+        </section>
+        {% include footer.html %}
+        <script type="text/javascript" src="{{ site.baseurl }}/js/galileo.js"></script>
     </body>
 </html>
