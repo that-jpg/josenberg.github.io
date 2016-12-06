@@ -1,21 +1,17 @@
 ---
 layout: post
-title:  "Seja bem vindo"
+title:  "Introdução"
 date:   2015-11-15 13:05:14 +0100
 categories: introdução
 location: Campinas, Brasil
 ---
 
 
+Eu sou Philipe Godoy. Eu sou um programador brasileiro.
 
-Suitable for shortform, longform, and probably even waveform. It is purpose-built to accomodate photographic content wonderfully and lends itself well to journaling your sojourn.
+<h3> Sobre o que você vai escrever? </h3>
+A maior parte das coisas que eu vou escrever é sobre minha carreira e algumas decisões que eu escolhi como programador, a maior parte será sobre código, mas eu pretendo escrever também sobre temas que são importantes para mim, como o vestibular ou até minha opinião sobre determinados acontecimentos. A maior parte vai ser besteira e não deve ser encarado como verdade, mas de qualquer forma espero que você consiga tirar proveito dos meus textos.
 
-<div class="post-image post-image--split">
-    <img src="http://placehold.it/365x270/8e8387/ffffff" alt="The first in an example of split-imagery" />
-    <img src="http://placehold.it/365x270/8e8387/ffffff" alt="The second in an example of split-imagery" />
-</div>
 
-<div class="post-image">
-    <img src="http://placehold.it/750x563/8e8387/ffffff" alt="A full-size image example" />
-    <p class="post-image-caption">Here we demonstrate a caption. This'll adapt to any length of text.</p>
-</div>
+<h3> Como entro em contato? </h3>
+Use meu gmail, é a maneira mais rapida. mbx.philipe@gmail.com
