@@ -1,8 +1,9 @@
-#banner {    
+#banner {
     background-color: #8e8387;
     outline: none;
     display: block;
     width: $banner-width;
+    max-width: 100%;
     height: $banner-height;
     margin: 0 auto 35px;
     position: relative; /* To ensure the bottom border is positioned correctly */
@@ -35,6 +36,28 @@
     @include min-breakpoint($image-splitting-breakpoint) {
         margin-bottom: $banner-margin;
     }
+
+    ul {
+      position: absolute;
+      margin-top: 172px;
+      text-align: right;
+      padding-right: 10px;
+      right: 0px;
+      top: -10px;
+      li {
+        float: right;
+        margin: 10px;
+      }
+      h2 {
+          font-family: "Libre Baskerville",serif;
+          font-size: 18px;
+          color: black;
+          text-shadow: rgba(0,0,0,0.2) 1px 1px;
+          text-transform: uppercase;
+      }
+    }
+
+
 }
 
 #footer {
