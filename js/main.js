@@ -17,10 +17,9 @@
   var colorToUse = colors[Math.floor(Math.random() * (colors.length - 1))];
   // ;
 
-  var headerWidth = (window.innerWidth > 960) ? 960 : window.innerWidth;
   var header = Trianglify({
-      width: headerWidth,
-      height: 200,
+      width: window.innerWidth,
+      height: 50,
       x_colors: colorToUse
   });
 
@@ -28,7 +27,7 @@ $("#banner").append(header.canvas());
 
   var footer = Trianglify({
       width: window.innerWidth,
-      height: 200,
+      height: 50,
       x_colors: colorToUse
   });
 

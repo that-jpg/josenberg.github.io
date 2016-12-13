@@ -1,15 +1,24 @@
 <header role="banner">
     <div id="banner" title="{{ site.title }}">
-      <ul>
-        <li>
-          <a href="{{ site.baseurl }}/misc/2015/11/15/introducao/"> <h2> Sobre </h2> </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/projects"> <h2> Projetos </h2> </a>
-        </li>
-        <li>
-          <a href="{{ site.url }}"> <h2> Home </h2> </a>
-        </li>
-      </ul>
+
     </div>
 </header>
+<ul class="pagination menu-header">
+      <!-- Last page -->
+      <li class="pagination-item">
+          <a class="pagination-link pagination-link--non-numeric" href="{{site.url}}"> <i class="fa fa-home" aria-hidden="true"></i> Home </a>
+      </li>
+      <!-- Next page -->
+      <li class="pagination-item">
+          <a class="pagination-link pagination-link--non-numeric" href="{{site.url}}/projects"> <i class="fa fa-building" aria-hidden="true"></i> Projetos </a>
+      </li>
+      <!-- Next page -->
+      <li class="pagination-item">
+          <a class="pagination-link pagination-link--non-numeric" href="{{site.url}}/misc/2015/11/15/introducao"> <i class="fa fa-paper-plane" aria-hidden="true"></i> Sobre </a>
+      </li>
+
+      <!-- Next page -->
+      <li class="pagination-item">
+          <a class="pagination-link pagination-link--non-numeric" href="https://github.com/josenberg"> <i class="fa fa-github" aria-hidden="true"></i> GitHub </a>
+      </li>
+  </ul>

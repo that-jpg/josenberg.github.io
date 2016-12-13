@@ -29,8 +29,8 @@ $desktop-breakpoint: $layout-width / 0.9;
 $image-splitting-breakpoint: 510px;
 
 // Banner
-$banner-width: 960px;
-$banner-height: 200px;
+$banner-width: "100%";
+$banner-height: 50px;
 $banner-margin: 50px;
 $banner-border-width: 3px;
 $banner-border-offset: 2px;
@@ -84,4 +84,9 @@ $img-location: '{{ site.baseurl }}/img/icon-location';
     column-count: 1;
   }
 
+}
+
+
+.menu-header {
+   margin-bottom: 30px;
 }
