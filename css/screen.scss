@@ -50,3 +50,28 @@ $img-location: '{{ site.baseurl }}/img/icon-location';
         "layout",
         "modules"
 ;
+
+
+.align-left {
+  text-align: left;
+}
+
+.project-title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.project {
+  max-width: 48%;
+  display: inline-block;
+}
+
+.project img {
+  max-width: 80%;
+  margin: 10px auto;
+  display: block;
+}
+
+.project p {
+  padding: 10px;
+}
