@@ -70,6 +70,9 @@
       position: fixed;
       bottom: 0;
       left: 0;
+      @include max-breakpoint(800px) {
+          display: none;
+      }
     }
 
     a {
