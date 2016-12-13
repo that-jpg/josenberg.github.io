@@ -78,6 +78,10 @@ $img-location: '{{ site.baseurl }}/img/icon-location';
 }
 
 .projects {
-  column-count: 2;
   width: 100%;
+  column-count: 2;
+  @include max-breakpoint("820px") {
+    column-count: 1;
+  }
+
 }
