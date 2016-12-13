@@ -23,7 +23,7 @@ picturefill: true
 # Typography
 # To use, publish a kit and enter the ID here. If you do not wish to use Typekit,
 # leave this ID blank
-typekit_kit_id: kwf5dox
+typekit_kit_id: hcf5gan
 
 # Build settings
 gems: [jekyll-paginate]
