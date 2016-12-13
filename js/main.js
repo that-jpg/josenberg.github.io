@@ -10,7 +10,7 @@
       "PuOr", "BrBG", "PRGn",
       "PiYG", "RdBu", "RdGy" ,
       "RdYlBu", "Spectral", "RdYlGn",
-      "Accent", "Dark2", "Paired",
+      "Accent", "Paired",
       "Pastel1", "Pastel2", "Set1",
       "Set2", "Set3"];
 

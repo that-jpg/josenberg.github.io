@@ -4,26 +4,63 @@ layout: default
 
 <h1 class="post-title align-left"> Projetos </h1>
 <br /> <br />
-<article class="project">
-    <header>
-        <h2 class="project-title"> Tatical Minifier </h2>    
-    </header>
-    <div class="project-body">
-        <img src="{{site.baseurl}}/img/TaticalMinifier.png" />
-        <p> Quando desenvolvemos aplicações web devemos ter um preocupação em relação ao tamanho dos arquivos que servimos para o usuario
-        esse pequeno script nos ajuda a minificar imagens sem perca de qualidade, ele usa a API do tinyIMG. <br /> <br />
-        Automatizar essa tarefa economizou diversas horas no desenvolvimento de diversos sites, o proximo passo seria integar ele com o Grunt ou Gulp para
-        poder informar o usuario quais imagens de seu projeto ainda não estão minificadas. </p>
-    </div>
-</article>
-
-<article class="project">
-    <header>
-        <a href="{{ include.post.url | prepend: site.baseurl }}">
-            <h2 class="project-title"> Tatical Minifier </h2>
+<div class="projects">
+  <article class="project">
+      <header>
+        <a href="https://github.com/josenberg/TaticalMinifier">
+          <h2 class="project-title"> Tatical Minifier </h2>
         </a>
-    </header>
-    <div class="project-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-</article>
+      </header>
+      <div class="project-body">
+          <img src="{{site.baseurl}}/img/TaticalMinifier.png" />
+          <p> Quando desenvolvemos aplicações web devemos ter um preocupação em relação ao tamanho dos arquivos que servimos para o usuario
+          esse pequeno script nos ajuda a minificar imagens sem perca de qualidade, ele usa a API do tinyIMG. <br /> <br />
+          Automatizar essa tarefa economizou diversas horas no desenvolvimento de diversos sites, o proximo passo seria integar ele com o Grunt ou Gulp para
+          poder informar o usuario quais imagens de seu projeto ainda não estão minificadas. </p>
+      </div>
+  </article>
+
+  <article class="project">
+      <header>
+          <a href="http://museum.josenberg.com.br">
+              <h2 class="project-title"> Museum </h2>
+          </a>
+      </header>
+      <div class="project-body">
+          <img src="{{site.baseurl}}/img/museum.png" />
+          <p>
+            Uma galeria de artes usando AngularJS para mostrar algumas obras. <br /> <br />
+            Muito acostumado a usar o Ember.JS esse foi um projeto para entender melhor as
+            directives e o 'flow' de desenvolvimento com angular
+          </p>
+      </div>
+  </article>
+  <article class="project">
+      <header>
+          <a href="https://github.com/josenberg/SnakeGame.java">
+              <h2 class="project-title"> SnakeGame </h2>
+          </a>
+      </header>
+      <div class="project-body">
+          <img src="{{site.baseurl}}/img/snakeGame.png" />
+          <p>
+            Um pequeno estudo sobre arquitetura e orientação a objetos usando Java <br /> <br />
+            Um 'remake' do chamado jogo da cobrinha foi uma maneira de tirar alguns conceitos
+            que antes estavam totalmente abstratos e torna-los algo sólido.
+          </p>
+      </div>
+  </article>
+  <article class="project">
+      <header>
+          <a href="https://github.com/josenberg/Dummy-Debug">
+              <h2 class="project-title"> DummyDebug </h2>
+          </a>
+      </header>
+      <div class="project-body">
+          <img src="{{site.baseurl}}/img/DummyDebug.png" />
+          <p>
+            Dummy debug é um package para sublime text. <br /> <br /> Ainda tem algumas alterações que eu acredito serem necessarias antes de enviar para o package control do sublime, mas em breve ele estará lá. 
+          </p>
+      </div>
+  </article>
+</div>

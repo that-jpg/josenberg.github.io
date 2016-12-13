@@ -57,12 +57,13 @@ $img-location: '{{ site.baseurl }}/img/icon-location';
 }
 
 .project-title {
+
   margin-bottom: 10px;
+  padding-top: 3px;
   text-align: center;
 }
 
 .project {
-  max-width: 48%;
   display: inline-block;
 }
 
@@ -74,4 +75,9 @@ $img-location: '{{ site.baseurl }}/img/icon-location';
 
 .project p {
   padding: 10px;
+}
+
+.projects {
+  column-count: 2;
+  width: 100%;
 }
