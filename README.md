@@ -1,7 +1,8 @@
-Galileo Theme
+Tema do meu site pessoal.
 ---
 
-Another damned theme for Jekyll.
+Esse tema foi baseado em um tema chamado 'The Galileo Theme', apesar do estilo ser ligeramente diferente todo a estrutura foi retirada desse
+tema, se você estiver afim de fazer algo parecido eu reconhemendo você ir direto para o original
 
 ![The Galileo Theme](https://cloud.githubusercontent.com/assets/185649/11737785/b998bd0c-a002-11e5-9c93-0ac83917f32d.png)
 
