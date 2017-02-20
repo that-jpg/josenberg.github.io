@@ -20,10 +20,12 @@ url: "http://josenberg.com.br" # the base hostname & protocol for your site
 # A responsive image polyfill: http://scottjehl.github.io/picturefill/
 picturefill: true
 
+future: true
+
 # Typography
 # To use, publish a kit and enter the ID here. If you do not wish to use Typekit,
 # leave this ID blank
-typekit_kit_id: 
+typekit_kit_id:
 
 # Build settings
 gems: [jekyll-paginate]
