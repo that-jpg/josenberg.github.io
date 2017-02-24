@@ -33,59 +33,19 @@ Tendo em isso em mente vamos começar nosso sprint.
 
 O jogo original nos apresenta uma tela com vários pixels que são redesenhados em um loop temporal (a cada X segundos o personagem se movimenta e a tela é redesenhada).
 
-Nosso foco não vai ser em aprender um modo gráfico de representar a tela, nosso foco está no core do joguinho, então decidi desenvolver esse jogo direto no terminal, o primeiro passo foi criar um objeto para representar um 'pixel' da nossa tela, eu chamei esse pixel de Tile, ele ficou dessa maneira:
+Nosso foco não vai ser em aprender um modo gráfico de representar a tela, nosso foco está no core do joguinho, então decidi desenvolver esse jogo direto no terminal, o primeiro passo foi criar um objeto para representar um 'pixel' da nossa tela, eu chamei esse pixel de Tile, você pode observer a versão final e o desenvolvimento nesse link (https://github.com/josenberg/SnakeGame.java/blob/master/src/Tile.java).
 
-{% highlight java %}
-	/**
-	 * Tile is the object that represent one position in the screen.
-	 */
-	public class Tile {
-	    /**
-	     * Theses variables define the state of the tile, the tile can be
-	     * - apple tile (which means that it contain a apple)
-	     * - Snake tile (which means that it contain a part of the snake body)
-	     * - Empty tile (When the tile isnt a apple or a snake body it should have a empty behavior)
-	     **/
-	    private boolean apple = false;
-	    private boolean snakeBody = false;
+Para renderizar esses tiles na tela foi criada uma outra classe que seria responsavel pela UI da aplicação, nessa classe nos criamos uma array de tiles e representamos eles na tela com simbolos que variam de acordo com o estado do tile sendo renderizado (ele pode ser "[ ]", "[@]" ou "[#]") além de uma função chamada `redraw` que é reponsavel por alterar o conteudo que é mostrado na tela.
 
-	    /**
-	     * Each type of tile is represented in a differently way in the     
-	     * screen, this variables define theirs styles.
-	     **/
-	    final private String LABEL = "[ ]";
-	    private String LABEL_WITH_SNAKE_BODY= "[@]";
-	    private String LABEL_WITH_APPLE = "[#]";
+TL;DR: Criamos duas classes para renderizar a nossa tela, uma responsavel pela UI e outra pelo estado dos _pixels_. As classes ficaram com as seguindes responsabilidades:
 
-	    /**
-	     * Print the tile in the screen basead on its type   
-	     **/
-	    public void printTile() {
-	        if (this.hasApple()) {
-	            System.out.print(this.LABEL_WITH_APPLE);
-	        } else if(this.isSnakeBody()){
-	            System.out.print(this.LABEL_WITH_SNAKE_BODY);
-	        } else {
-	            System.out.print(this.LABEL);
-	        }
-	    }
-
-	    public boolean hasApple() {
-	        return apple;
-	    }
-
-	    public void setApple(boolean apple) {
-	        this.apple = apple;
-	    }
-
-	    public boolean isSnakeBody() {
-	        return snakeBody;
-	    }
-
-	    public void setSnakeBody(boolean snakeBody) {
-	        this.snakeBody = snakeBody;
-	    }
-	}
-{% endhighlight %}
-
-Ele possui algumas variaveis que controlam seu estado, por exemplo, se esse tile é uma apple, ele terá a variavel `apple = true`, o mesmo acontece para o `snakeBody`
+<ul class="styled-list">
+	<li>
+		<b> tile.java (_Pixel_):</b>
+		<ul>
+			<li> debug </li>
+		</ul>
+	</li>
+	<li> <b> A Maçã (Apple):</b> A fruta que será renderizada na tela para.</li>
+	<li> <b> A Cobrinha (Snake):</b> Um jeito de guardar a posição que o jogador vai estar e lidar com os movimentos. </li>
+</ul>
