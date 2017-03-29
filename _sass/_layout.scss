@@ -114,3 +114,22 @@ section[role="main"] {
 header[role="banner"] {
   overflow: hidden;
 }
+.jornal-entry {
+  padding: 20px;
+  h2 {
+    font-size: 18px
+  }
+  h3 {
+    font-size: 16px
+  }
+
+}
+.entry-list {
+    a:hover {
+      text-decoration: underline;
+      color: black;
+    }
+    li {
+      list-style: circle;
+    }
+}
