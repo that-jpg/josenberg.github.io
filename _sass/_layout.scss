@@ -116,6 +116,9 @@ header[role="banner"] {
 }
 .jornal-entry {
   padding: 20px;
+  img {
+    max-width: 100%;
+  }
   h2 {
     font-size: 18px
   }
